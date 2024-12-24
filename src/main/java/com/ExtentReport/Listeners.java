@@ -3,7 +3,6 @@ package com.ExtentReport;
 import org.testng.ITestListener;
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
-import org.testng.ITestListener;
 import org.testng.ITestResult;
 
 import com.aventstack.extentreports.ExtentReports;
@@ -12,6 +11,7 @@ import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.Status;
 
 public class Listeners implements ITestListener {
+	//ExtentReports extent = ExtentReportBase.ExtentReportGenerator();
 	ExtentReports extent = ExtentReportBase.ExtentReportGenerator();
 	ExtentTest test;
 	// This is the concept of ThreadSafe

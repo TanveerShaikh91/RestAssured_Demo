@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-24T12:09:00 IST" name="Suite" finished-at="2024-12-24T12:09:08 IST" duration-ms="7764">
+    <groups>
+    </groups>
+    <test started-at="2024-12-24T12:09:00 IST" name="Test" finished-at="2024-12-24T12:09:08 IST" duration-ms="7764">
+      <class name="com.Notes.Create_Notes_All_Negative_TCS">
+        <test-method is-config="true" signature="getToken()[pri:0, instance:com.Notes.Create_Notes_All_Negative_TCS@60dcc9fe]" started-at="2024-12-24T12:09:00 IST" name="getToken" finished-at="2024-12-24T12:09:03 IST" duration-ms="2957" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getToken -->
+        <test-method signature="createNotes_TCS(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Notes.Create_Notes_All_Negative_TCS@60dcc9fe]" started-at="2024-12-24T12:09:06 IST" name="createNotes_TCS" data-provider="create_note_negative_tcs" finished-at="2024-12-24T12:09:06 IST" duration-ms="373" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Home]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hom]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Done for Home]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Title must be between 4 and 100 characters]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNotes_TCS -->
+        <test-method signature="createNotes_TCS(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Notes.Create_Notes_All_Negative_TCS@60dcc9fe]" started-at="2024-12-24T12:09:06 IST" name="createNotes_TCS" data-provider="create_note_negative_tcs" finished-at="2024-12-24T12:09:07 IST" duration-ms="370" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Work]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Work_API]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Description must be between 4 and 1000 characters]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNotes_TCS -->
+        <test-method signature="createNotes_TCS(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Notes.Create_Notes_All_Negative_TCS@60dcc9fe]" started-at="2024-12-24T12:09:07 IST" name="createNotes_TCS" data-provider="create_note_negative_tcs" finished-at="2024-12-24T12:09:07 IST" duration-ms="369" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Work]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Work_API]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Des]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Description must be between 4 and 1000 characters]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNotes_TCS -->
+        <test-method signature="createNotes_TCS(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Notes.Create_Notes_All_Negative_TCS@60dcc9fe]" started-at="2024-12-24T12:09:07 IST" name="createNotes_TCS" data-provider="create_note_negative_tcs" finished-at="2024-12-24T12:09:08 IST" duration-ms="365" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Personal]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Done for Personal]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Title must be between 4 and 100 characters]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNotes_TCS -->
+        <test-method signature="createNotes_TCS(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Notes.Create_Notes_All_Negative_TCS@60dcc9fe]" started-at="2024-12-24T12:09:08 IST" name="createNotes_TCS" data-provider="create_note_negative_tcs" finished-at="2024-12-24T12:09:08 IST" duration-ms="372" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Title]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Done for Personal]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Category must be one of the categories: Home, Work, Personal]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNotes_TCS -->
+      </class> <!-- com.Notes.Create_Notes_All_Negative_TCS -->
+      <class name="com.Countries.RetriveACountry">
+        <test-method signature="getDefaultCountry()[pri:0, instance:com.Countries.RetriveACountry@6e75aa0d]" started-at="2024-12-24T12:09:04 IST" name="getDefaultCountry" finished-at="2024-12-24T12:09:05 IST" duration-ms="544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDefaultCountry -->
+      </class> <!-- com.Countries.RetriveACountry -->
+      <class name="com.Countries.GetDefaultCountry">
+        <test-method signature="getDefaultCountry()[pri:0, instance:com.Countries.GetDefaultCountry@7a52f2a2]" started-at="2024-12-24T12:09:04 IST" name="getDefaultCountry" finished-at="2024-12-24T12:09:04 IST" duration-ms="460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDefaultCountry -->
+      </class> <!-- com.Countries.GetDefaultCountry -->
+      <class name="com.Notes.Create_Notes_All_TCS">
+        <test-method is-config="true" signature="getToken()[pri:0, instance:com.Notes.Create_Notes_All_TCS@3c72f59f]" started-at="2024-12-24T12:09:03 IST" name="getToken" finished-at="2024-12-24T12:09:04 IST" duration-ms="523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getToken -->
+        <test-method signature="createNotes_TCS(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Notes.Create_Notes_All_TCS@3c72f59f]" started-at="2024-12-24T12:09:05 IST" name="createNotes_TCS" data-provider="create_note" finished-at="2024-12-24T12:09:05 IST" duration-ms="460" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Home]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Home_API]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Done for Home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNotes_TCS -->
+        <test-method signature="createNotes_TCS(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Notes.Create_Notes_All_TCS@3c72f59f]" started-at="2024-12-24T12:09:05 IST" name="createNotes_TCS" data-provider="create_note" finished-at="2024-12-24T12:09:06 IST" duration-ms="461" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Work]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Work_API]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Done for Work]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNotes_TCS -->
+        <test-method signature="createNotes_TCS(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Notes.Create_Notes_All_TCS@3c72f59f]" started-at="2024-12-24T12:09:06 IST" name="createNotes_TCS" data-provider="create_note" finished-at="2024-12-24T12:09:06 IST" duration-ms="454" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Personal]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Personal_API]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Done for Personal]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNotes_TCS -->
+      </class> <!-- com.Notes.Create_Notes_All_TCS -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
