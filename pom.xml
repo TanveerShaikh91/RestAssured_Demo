@@ -28,8 +28,8 @@
 				<configuration>
 					<suiteXmlFiles>
 						<!-- TestNG suite XML files -->
-						<suiteXmlFile>SmokeTest.xml</suiteXmlFile>
-						<!--suiteXmlFile>${xmlFilePath}</suiteXmlFile> -->
+						<!--<suiteXmlFile>SmokeTest.xml</suiteXmlFile>-->
+						<suiteXmlFile>${xmlFilePath}</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
