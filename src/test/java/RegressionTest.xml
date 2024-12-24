@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="com.Countries.GetDefaultCountry"/>
+      <class name="com.Notes.Create_Notes_All_TCS"/>
+      <class name="com.Notes.UpdateNote"/>
+      <class name="com.Notes.Create_Notes_All_Negative_TCS"/>
+      <class name="com.Notes.Delete_Notes_Using_UI"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
